@@ -35,7 +35,7 @@
   "description": "Custom button component for Nuxt 3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shuami-dev/nuxt-button"
+    "url": "https://github.com/shuami-dev/nuxt-button.git"
   },
   "dependencies": {
     "vue": "^3.5.12"
