@@ -20,6 +20,10 @@ export default defineNuxtConfig({
 ### In your Nuxt project (e.g: index.ts)
 
 ```vue
+<script setup lang="ts">
+  import { PrimaryButton, WarningButton } from '@shuami-dev/nuxt-button'
+</script>
+
 <template>
   <PrimaryButton label="Primary" @click="primaryClick" />
   <WarningButton label="Warning" @click="warningClick" />
