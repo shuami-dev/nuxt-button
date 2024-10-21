@@ -1,15 +1,16 @@
 ## Nuxt 3 Custom Button
 
-This is a package that can be used in Nuxt 3 projects.
+A collection of customizable Vue button components for Nuxt 3, built with TypeScript.
 
 ## How to Use
 
 ### Install
+
 ```npm i @shuami-dev/nuxt-button```
 
 ### In your Nuxt project (nuxt.config.ts)
 
-```vue
+```ts
 export default defineNuxtConfig({
   ...
   css: [
@@ -17,15 +18,21 @@ export default defineNuxtConfig({
   ]
 })
 ```
+
 ### In your Nuxt project (e.g: index.ts)
 
 ```vue
+
 <script setup lang="ts">
   import { PrimaryButton, WarningButton } from '@shuami-dev/nuxt-button'
+
+  const handleClick = () => {
+    alert('Button clicked!')
+  }
 </script>
 
 <template>
-  <PrimaryButton label="Primary" @click="primaryClick" />
-  <WarningButton label="Warning" @click="warningClick" />
+  <PrimaryButton label="Primary" @click="handleClick"/>
+  <WarningButton label="Warning" @click="handleClick"/>
 </template>
 ```
