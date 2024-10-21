@@ -6,7 +6,9 @@ A collection of customizable Vue button components for Nuxt 3, built with TypeSc
 
 ### Install
 
-```npm i @shuami-dev/nuxt-button```
+```bash
+npm i @shuami-dev/nuxt-button
+```
 
 ### In your Nuxt project (nuxt.config.ts)
 
