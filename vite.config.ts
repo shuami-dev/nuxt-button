@@ -26,7 +26,7 @@ export default defineConfig({
 		vue(),
 		dts({
 			// Generate .d.ts files in the dist/types directory
-			outputDir: 'dist/types',
+			outDir: 'dist/types',
 			// Ensure type declarations are included
 			insertTypesEntry: true
 		})
