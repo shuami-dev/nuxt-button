@@ -27,18 +27,19 @@ export default defineComponent({
 
 <style scoped>
 .primary-button {
-  background-color: #1e90ff;
-  border-radius: 9999px;
-  border: 1px solid rgba(32, 4, 175, 0.75);
-  box-shadow: 0 3px 6px rgba(199, 199, 199, 0.7);
+  background-color: #4c83fc;
+  border-radius: 100px;
+  /* border: 1px solid rgba(32, 4, 175, 0.75); */
+  /* box-shadow: 0 3px 6px rgba(199, 199, 199, 0.7); */
   color: white;
   font-size: 12px;
   font-weight: 600;
-  height: 30px;
-  padding:  0 0.938rem;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  height: 40px;
+  /* padding:  0 0.938rem; */
+  padding: 10px 24px;
+  /* transition: background-color 0.3s ease, box-shadow 0.3s ease; */
 }
-.primary-button:hover {
+/* .primary-button:hover {
   background-color: #0364cb;
   box-shadow: 0 3px 6px rgba(9, 113, 199, 0.8);
 }
@@ -50,7 +51,7 @@ export default defineComponent({
 .primary-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(9, 106, 186, 0.5);
-}
+} */
 .primary-button:disabled {
   background-color: #d3d3d3;
   color: #888;
