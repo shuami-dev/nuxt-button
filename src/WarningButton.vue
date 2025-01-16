@@ -29,11 +29,11 @@ export default defineComponent({
 .warning-button {
   background-color: #fcaa4c;
   border-radius: 100px;
-  color: black;
-  font-size: 13px;
-  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
   height: 40px;
-  padding: 10px 24px;
+  padding: 8px 24px;
 }
 .warning-button:disabled {
   background-color: #d3d3d3;

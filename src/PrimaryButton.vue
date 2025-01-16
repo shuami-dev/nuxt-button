@@ -30,10 +30,10 @@ export default defineComponent({
   background-color: #4c83fc;
   border-radius: 100px;
   color: white;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   height: 40px;
-  padding: 10px 24px;
+  padding: 8px 24px;
 }
 .primary-button:disabled {
   background-color: #d3d3d3;
